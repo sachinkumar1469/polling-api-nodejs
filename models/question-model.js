@@ -10,7 +10,7 @@ const questionSchema = new Schema({
     options:[
         {
             type:Schema.Types.ObjectId,
-            ref:"Options"
+            ref:"options"
         }
     ]
 },{

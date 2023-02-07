@@ -26,7 +26,7 @@ app.use(bodyParser.json());
 
 // Rotes Middleware
 app.use("/question",require("./routes/question-route"));
-app.use("/options",require("./models/options-model"));
+app.use("/options",require("./routes/options-route"));
 
 app.use("/",(req,res,next)=>{
     res.status(200).json({
